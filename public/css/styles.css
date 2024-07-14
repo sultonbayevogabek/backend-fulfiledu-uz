@@ -601,3 +601,12 @@ body {
         font-size: 21px;
     }
 }
+
+.powered-by {
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif;
+    color: #f8f8f8;
+}
