@@ -62,7 +62,7 @@ try {
             }))
 
             formAlert.classList.remove('open');
-            window.location.href = `${window.location.protocol}//${window.location.host}/telegram.html`
+            window.location.href = `../telegram.html`
         }
     })
 } catch (e) {
