@@ -52,8 +52,20 @@
     </div>
 
     <div class="mobile-mentor">
-      <img class="mobile-mentor-img" src="img/mentor@1x.jpg" srcset="img/mentor@1x.jpg 1x, img/mentor@2x.jpg 2x"
-           alt="Mentor image">
+      <picture class="mobile-mentor-img">
+        <source
+          srcset="img/mentor@2x.webp 2x, img/mentor@1x.webp 1x"
+          type="image/webp"
+        />
+
+        <source
+          srcset="img/mentor@2x.jpg 2x, img/mentor@1x.jpg 1x"
+          type="image/png"
+        />
+
+        <img class="mobile-mentor-img" src="img/mentor@1x.jpg" srcset="img/mentor@1x.jpg 1x, img/mentor@2x.jpg 2x"
+             alt="Mentor image">
+      </picture>
     </div>
   </div>
 </div>
