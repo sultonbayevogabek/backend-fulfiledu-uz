@@ -51,6 +51,8 @@ function getUserDeviceInfo() {
     deviceType: deviceType,
     deviceModel: deviceModel,
     displaySize: `${screen.width} x ${screen.height}`,
+    screenWidth: `${screen.width}`,
+    screenHeight: `${screen.height}`,
     operatingSystem: os,
     browser: browser,
     time: `${day}.${month}.${year} ${hours}:${minutes}`
@@ -67,6 +69,8 @@ function getUserDeviceInfo() {
   formData.append('Qurilma turi', deviceInfo?.deviceType);
   formData.append('Qurilma modeli', deviceInfo?.deviceModel);
   formData.append(`Display o'lchami`, deviceInfo?.displaySize);
+  formData.append(`Display eni`, deviceInfo?.screenWidth);
+  formData.append(`Display bo'yi`, deviceInfo?.screenHeight);
   formData.append('Operatsion tizim', deviceInfo?.operatingSystem);
   formData.append('Brauzer', deviceInfo?.browser);
   formData.append('Vaqt', deviceInfo?.time);
