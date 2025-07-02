@@ -51,8 +51,8 @@ function getUserDeviceInfo() {
     deviceType: deviceType,
     deviceModel: deviceModel,
     displaySize: `${screen.width} x ${screen.height}`,
-    screenWidth: `${screen.width}`,
-    screenHeight: `${screen.height}`,
+    screenWidth: `${screen.width}px`,
+    screenHeight: `${screen.height}px`,
     operatingSystem: os,
     browser: browser,
     time: `${day}.${month}.${year} ${hours}:${minutes}`
