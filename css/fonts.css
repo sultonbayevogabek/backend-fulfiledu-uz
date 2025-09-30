@@ -1,0 +1,7 @@
+@font-face {
+  font-display: swap;
+  font-family: "Astro";
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/astro_space_400.ttf') format('truetype');
+}
